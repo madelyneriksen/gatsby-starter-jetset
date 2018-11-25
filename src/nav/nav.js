@@ -20,7 +20,7 @@ class Nav extends React.Component {
         <a href="#about" className={navLinkClasses}>About</a>
         <a href="#features" className={navLinkClasses}>Features</a>
         <a href="#contact" className={navLinkClasses}>Contact</a>
-        <a href="#signup" className={MainCta + " no-underline"}>Get Notified</a>
+        <a href="#hero" className={MainCta + " no-underline"}>Get Notified</a>
       </nav>
       )
     }
