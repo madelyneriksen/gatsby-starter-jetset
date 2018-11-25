@@ -3,7 +3,7 @@ import React from 'react';
 
 export default () => (
   <div
-    id="#about"
+    id="about"
     className="min-vh-100 flex flex-wrap items-center justify-center pa2">
     <section className="w-100 mw6">
       <h1 className="f2 navy">JetSet Helps You Launch.</h1>
