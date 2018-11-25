@@ -1,5 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
+import Customize from '../../content/images/customize.min.svg';
+import Build from '../../content/images/build.min.svg';
+import Deploy from '../../content/images/deploy.min.svg';
 
 
 const cardClasses = `
@@ -41,14 +44,17 @@ export default () => (
         id="features"
         className="min-vh-100 bg-lightest-blue flex flex-wrap items-center justify-center">
         <Card>
+          <img src={Customize} alt="" />
           <h2 className="db navy tc">{data.card1.title}</h2>
           <p className="db lh-copy f4 tc">{data.card1.body}</p>
         </Card>
         <Card>
+          <img src={Build} alt="" />
           <h2 className="db navy tc">{data.card2.title}</h2>
           <p className="db lh-copy f4 tc">{data.card2.body}</p>
         </Card>
         <Card>
+          <img src={Deploy} alt="" />
           <h2 className="db navy tc">{data.card3.title}</h2>
           <p className="db lh-copy f4 tc">{data.card3.body}</p>
         </Card>
