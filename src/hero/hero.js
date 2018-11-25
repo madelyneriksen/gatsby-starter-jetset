@@ -19,7 +19,7 @@ export default () => (
         className="min-vh-100 ph1 pv4 flex flex-column items-center justify-center"
         id="hero"
         style={{backgroundImage: gradient}}>
-        <h1 className="near-white f1 mb2">{data.heroJson.title}</h1>
+        <h1 className="near-white f1 mb2 tc">{data.heroJson.title}</h1>
         <span className="near-white f4 mw7 tc mb4">{data.heroJson.body}</span>
         <Form />
       </div>
