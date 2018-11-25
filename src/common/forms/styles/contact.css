@@ -1,0 +1,14 @@
+.contact__form {
+  border-bottom: 1px #bbb solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+}
+
+.contact__form:focus { border-bottom: 1px blue solid; }
+
+.contact__form:invalid {
+  border-bottom: 1px red solid;
+  box-shadow: none;
+}
