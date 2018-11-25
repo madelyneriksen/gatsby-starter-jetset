@@ -24,7 +24,7 @@ export default () => (
           <div className="lh-copy f4" dangerouslySetInnerHTML={{__html: data.markdownRemark.html}} />
         </section>
         <div className="w-100 mw6">
-          <img src={Illustration} />
+          <img src={Illustration} alt="" />
         </div>
       </div>
     )}
