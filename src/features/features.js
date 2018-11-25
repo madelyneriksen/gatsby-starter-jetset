@@ -39,7 +39,7 @@ export default () => (
     render={data => (
       <div
         id="features"
-        className="min-vh-100 bg-light-gray flex flex-wrap items-center justify-center">
+        className="min-vh-100 bg-lightest-blue flex flex-wrap items-center justify-center">
         <Card>
           <h2 className="db navy tc">{data.card1.title}</h2>
           <p className="db lh-copy f4 tc">{data.card1.body}</p>
