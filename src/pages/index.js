@@ -5,6 +5,7 @@ import Nav from "../nav/nav.js";
 import About from "../about/about.js";
 import Features from "../features/features.js";
 import Contact from "../contact/contact.js";
+import Footer from "../footer/footer.js";
 
 export default () => (
   <Layout>
@@ -13,5 +14,6 @@ export default () => (
     <About />
     <Features />
     <Contact />
+    <Footer />
   </Layout>
 )
