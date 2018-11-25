@@ -14,19 +14,19 @@ class EmailForm extends React.Component {
 
   render() {
     return (
-      <form className="flex">
+      <form className="flex flex-wrap items-center justify-center">
         <input
           type="text"
           value={this.state.value}
           name="email"
-          className="bg-near-white mid-gray shadow-5 br-pill bn pa3 ph5 mh2 tc"
+          className="bg-near-white mid-gray shadow-5 br-pill bn pa3 ph4 ph5-m mh2 mv2 tc"
           placeholder="Your Email Address."
           onChange={this.handleChange}
         />
         <input
           type="submit"
           value="Get Notified"
-          className="bg-blue near-white shadow-5 br-pill pv3 bn ph4 grow" />
+          className="bg-blue near-white shadow-5 br-pill pv3 bn ph4 mv2 grow" />
       </form>
     )
   }
