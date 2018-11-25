@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainCta } from '../buttons/cta.js';
+import { LightCta } from '../buttons/cta.js';
 
 
 class EmailForm extends React.Component {
@@ -27,7 +27,7 @@ class EmailForm extends React.Component {
         <input
           type="submit"
           value="Get Notified"
-          className={MainCta} />
+          className={LightCta} />
       </form>
     )
   }
