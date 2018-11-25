@@ -65,7 +65,7 @@ class ContactForm extends React.Component {
           <input
             type="submit"
             value="Submit"
-            className={MainCta} />
+            className={MainCta + " w-100 mw5"} />
         </div>
       </form>
     )

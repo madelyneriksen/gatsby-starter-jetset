@@ -6,9 +6,8 @@
   resize: none;
 }
 
-.contact__form:focus { border-bottom: 1px blue solid; }
+.contact__form:focus { border-bottom: 1px #536dfe solid; }
 
 .contact__form:invalid {
-  border-bottom: 1px red solid;
   box-shadow: none;
 }
