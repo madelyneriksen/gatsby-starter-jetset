@@ -15,12 +15,12 @@ class EmailForm extends React.Component {
 
   render() {
     return (
-      <form className="flex flex-wrap items-center justify-center">
+      <form className="flex flex-wrap items-center justify-center w-100">
         <input
           type="text"
           value={this.state.value}
           name="email"
-          className="bg-near-white mid-gray shadow-5 br-pill bn pa3 ph4 ph5-m mh2 mv2 tc"
+          className="bg-near-white mid-gray shadow-5 br-pill bn pa3 ph4 ph5-m mh2 mv2 tc w-100 mw6"
           placeholder="Your Email Address."
           onChange={this.handleChange}
         />
