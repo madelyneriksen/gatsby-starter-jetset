@@ -3,7 +3,7 @@ import "./styles/contact.css"
 import { MainCta } from '../buttons/cta.js';
 
 
-const formClasses = "w-100 pa2 bg-transparent f4 bn contact__form"
+const formClasses = "w-100 pv2 bg-transparent f4 bn contact__form"
 
 
 class ContactForm extends React.Component {
@@ -31,8 +31,8 @@ class ContactForm extends React.Component {
   render() {
     return (
       <form>
-        <div className="flex flex-wrap items-center justify-center pa1">
-          <div className="w-50 pa2">
+        <div className="flex flex-wrap items-center justify-center">
+          <div className="w-100 ph2 pv4">
             <input
               type="text"
               value={this.state.name}
@@ -42,7 +42,7 @@ class ContactForm extends React.Component {
               onChange={this.handleName}
               required />
           </div>
-          <div className="w-50 pa2">
+          <div className="w-100 ph2 pv4">
             <input
               type="email"
               value={this.state.email}
@@ -52,14 +52,14 @@ class ContactForm extends React.Component {
               onChange={this.handleEmail}
               required />
           </div>
-          <div className="w-100 pa2">
+          <div className="w-100 ph2 pv4">
             <textarea
               value={this.state.message}
               name="message"
               className={formClasses}
               placeholder="Questions, Comments, Concerns..."
               required
-              rows="5"
+              rows="1"
               onChange={this.handleMessage} />
           </div>
           <input
